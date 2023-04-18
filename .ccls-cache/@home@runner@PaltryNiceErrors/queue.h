@@ -15,7 +15,7 @@ private:
   int size;
 public:
   Queue(); //creates empty queue
-  void enqueue (const item_type& item); //inserts new element at end of queue
+  void enqueue (item_type item); //inserts new element at end of queue
   item_type dequeue(); //removes item from front of queue and returns it
   item_type peek(); //returns the item at the front of the queue
   bool is_empty(); //checks is queue is empty

@@ -9,7 +9,7 @@ Queue<item_type>::Queue(){
 }
 
 template <typename item_type>
-void Queue<item_type>::enqueue (const item_type& item){
+void Queue<item_type>::enqueue(item_type item){
   Node<item_type>* temp = new Node<item_type>;
   temp->data = item;
   temp->next = nullptr;
