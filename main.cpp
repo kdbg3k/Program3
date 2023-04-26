@@ -13,7 +13,7 @@ int main() {
   std::cout << "\nPostfix expression: " << postfix << std::endl;
   
 
-Queue<int>* Q;
+Queue<int>* Q = new Queue<int>;
 Q->enqueue(1);
 Q->enqueue(2);
 Q->enqueue(3);
